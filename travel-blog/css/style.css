@@ -1,0 +1,348 @@
+
+html,
+ body{
+  height: 100%;
+  margin: 0;
+  padding:0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  position: relative;
+    min-height: 100%;
+}
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ===================HEADER==================== */
+.bg{
+  background-image: url("../img/bg-bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.menu-bg{
+background-color:rgba(15, 15, 15, 0.6);
+}
+
+nav h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: rgba(244, 244, 245, 0.57);
+  text-shadow: 1px 1px rgba(16, 16, 17, 0.86);
+  font-size: 30px;
+}
+
+.menu-bg a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgba(230, 231, 233, 0.91);
+}
+
+.menu-bg a:hover{
+  color: rgba(126, 173, 180, 0.78);
+  text-shadow: 1px 1px rgb(38, 46, 108);
+}
+
+
+/* ======================HOMEPAGE========================== */
+
+h1{
+font-family: 'Kalam', cursive;
+font-size: 30px;
+opacity: 0.6;
+text-shadow: 1px 1px rgb(25, 22, 27);
+
+}
+
+
+.continent-menu{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  margin-top: 10%;
+  padding: 0;
+  width: 600px;
+  height: 150px;
+}
+
+
+.continent-menu li{
+list-style: none;
+position: absolute;
+width: 200px;
+height: 200px;
+background-color: rgb(95, 107, 108);
+margin:-100px;
+transform: rotate(45deg);
+transition: 0.5s;
+overflow: hidden;
+opacity: 0.85;
+}
+
+.continent-menu li:hover{
+  opacity: 1;
+  transform: rotate(-45deg);
+  z-index: 9;
+ transform: scale(1.2);
+ box-shadow: 10px 10px 10px rgba(218, 221, 211, 0.71);
+}
+
+.continent-menu li.item1{
+top: 0;
+left: 0;
+
+}
+
+.continent-menu li.item2{
+bottom: 0;
+left: 25%;
+
+}
+
+.continent-menu li.item3{
+top: 0;
+left: 50%;
+
+}
+
+.continent-menu li.item4{
+bottom: 0;
+left: 75%;
+
+}
+
+.continent-menu li.item5{
+top: 0;
+left: 100%;
+
+}
+
+.continent-menu li.item6{
+bottom: 0;
+left: 125%;
+
+}
+
+a .cont-img{
+  width: 100%;
+  height: 100%;
+  transform: rotate(-45deg) scale(1.4);
+
+}
+
+a .cont-img:hover{
+  transform: rotate(360deg) scale(1.4);
+  z-index: 9;
+
+}
+
+
+a .item1 .cont-img{
+  background-image: url('../img/africa-bg1.jpg');
+  background-size: cover;
+}
+
+a .item2 .cont-img{
+  background-image: url('../img/asia-bg1.jpg');
+  background-size: cover;
+}
+
+a .item3 .cont-img{
+  background-image: url('../img/europe-bg1.jpg');
+  background-size: cover;
+}
+
+a .item4 .cont-img{
+  background-image: url('../img/northa-bg1.jpg');
+  background-size: cover;
+}
+
+a .item5 .cont-img{
+  background-image: url('../img/southa-bg.jpg');
+  background-size: cover;
+}
+
+a .item6 .cont-img{
+  background-image: url('../img/oceania-bg1.jpg');
+  background-size: cover;
+}
+
+
+/* ==================CONTACTS================== */
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+
+}
+
+.contacts{
+  margin-left: 5%;
+}
+
+
+
+
+/* ====================Travel With US ==================== */
+h4{
+  font-family: 'Kalam', cursive;
+  font-size: 30px;
+  opacity: 0.6;
+  text-shadow: 1px 1px rgb(38, 46, 108);
+}
+
+.p-text{
+  color: rgb(15, 18, 17);
+  text-shadow: 1px, 1px rgb(8, 5, 7);
+  text-decoration: none;
+}
+
+/* ===============TIPS and TRICKS======================= */
+
+h2{
+ font-family: 'Poppins', sans-serif;
+ font-weight: 500;
+ color: rgba(244, 244, 245, 0.87);
+ /* text-shadow: 1px 1px rgba(16, 16, 17, 0.86); */
+ font-size: 30px;
+ text-shadow: 1px 1px rgb(25, 22, 27);
+
+}
+
+.dark-card{
+  background-color: rgba(55, 54, 56, 0.64);
+  background-color: rgba(55, 54, 56, 0.84);
+
+}
+
+.article-font{
+color: rgba(244, 244, 245, 0.87);
+   font-weight:400;
+   text-shadow: 1px 1px rgb(25, 22, 27);
+}
+
+.tips-pic{
+  width: 80%;
+  height: 400px;
+}
+
+.boots2{
+  width: 100%;
+}
+
+em{
+  color: rgb(148, 179, 141);
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-shadow: 1px 1px rgb(25, 22, 27);
+}
+
+aside h2{
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+ color: rgba(244, 244, 245, 0.87);
+ /* text-shadow: 1px 1px rgba(16, 16, 17, 0.86); */
+ font-size: 20px;
+ text-shadow: 1px 1px rgb(25, 22, 27);
+
+}
+
+
+#button-spin{
+width: 20%;
+background-color: rgb(79, 159, 175);
+color: rgb(232, 238, 238);
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+border: 1px  solid rgb(225, 244, 240);
+
+}
+
+
+/* ======================product-info=============== */
+
+.product-pic{
+  width: 80%;
+  height: 250px;
+}
+
+.product-pic1{
+  width: 100%;
+  height: 500px;
+}
+
+.book{
+  width: 10%;
+  height: 40px;
+  color: rgb(240, 237, 239);
+
+}
+
+.btn-back{
+  height: 40px;
+  color: rgb(240, 237, 239);
+  background-color: rgb(65, 149, 205);
+}
+
+/* ====================BOOKING FORM============== */
+
+.form-center{
+  margin-left: 32%;
+}
+
+.booking-comment{
+  border-radius: 5px;
+
+}
+
+.p-center{
+  margin-left: 15%;
+}
+
+.tralala{
+  margin-left: 69%;
+}
+
+
+.font-admin{
+color: rgb(234, 237, 236);
+text-shadow: 1px 1px rgb(83, 79, 77);
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+/* ===================MEDIAS========================= */
+
+@media{
+
+}
